@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WebLanguages/1.0.0": {
+        "runtime": {
+          "WebLanguages.dll": {}
+        },
+        "resources": {
+          "en-us/WebLanguages.resources.dll": {
+            "locale": "en-us"
+          },
+          "es/WebLanguages.resources.dll": {
+            "locale": "es"
+          },
+          "ja/WebLanguages.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebLanguages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

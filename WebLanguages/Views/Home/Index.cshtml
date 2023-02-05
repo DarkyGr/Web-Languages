@@ -1,0 +1,10 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization;
+@inject IViewLocalizer GetResources;
+
+@{
+    ViewData["Title"] = "DarkyGr";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@GetResources["textWelcome"]</h1>    
+</div>
